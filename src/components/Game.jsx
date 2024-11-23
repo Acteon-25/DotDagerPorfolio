@@ -1,4 +1,4 @@
-import Madera from "@/assets/img/Madera.jpg"
+import Madera from "@/assets/img/madera.jpg"
 
 const Game = () => {
   return (
