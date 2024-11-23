@@ -8,7 +8,7 @@ function YoutubeLinks() {
 
 
   return (
-    <div className="grid grid-cols-2 gap-12 p-4">
+    <div className="grid sm:grid-cols-2 gap-4 sm:gap-12 p-4">
     {youtubeLinks.map((link) => (
       <a
         key={link.id}
@@ -20,7 +20,7 @@ function YoutubeLinks() {
         <img
           src={link.img}
           alt={`Miniatura del video ${link.id}`}
-          className="w-96 rounded-lg shadow-lg hover:scale-105 transition-transform duration-300"
+          className="w-44 sm:w-96 rounded-lg shadow-lg hover:scale-105 transition-transform duration-300"
         />
       </a>
     ))}

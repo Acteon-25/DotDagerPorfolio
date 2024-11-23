@@ -9,7 +9,7 @@ function Header() {
   const items = [
     { label: "Home", type: "circle", to: "/" },
     { label: "Work", type: "diamond", to: "/work" },
-    { label: "About     ", type: "circle", to: "/about" },
+    { label: "About", type: "circle", to: "/about" },
   ];
 
   const toggleMenu = () => {
@@ -17,10 +17,10 @@ function Header() {
   };
 
   return (
-    <header className="fixed top-1/2 right-10 transform -translate-y-1/2 flex flex-col items-center space-y-8 z-10">
+    <header className="fixed top-12 sm:top-1/2 right-10 transform -translate-y-1/2 flex flex-col items-center space-y-8 z-10">
       <div className={`
-        flex justify-between items-center w-full bg-[#A1D6B2]
-        sm:w-auto fixed sm:relative`}
+        flex justify-between items-center w-full bg-zinc-700
+        sm:w-auto fixed sm:relative rounded-xl`}
       >
         {isOpen ? (
           <img
@@ -53,3 +53,4 @@ function Header() {
 }
 
 export default Header
+

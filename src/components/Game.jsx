@@ -6,7 +6,7 @@ const Game = () => {
       href="https://tbot.xyz/lumber/"
       target="_blank"
       rel="noopener noreferrer"
-      className="group fixed top-0 right-4 w-48 h-16"
+      className="group fixed top-0 right-4 w-48 h-16 hidden sm:block"
     >
       <div className="absolute top-0 left-1/2 -translate-x-1/2 w-1 h-10 bg-gray-700"></div>
 
